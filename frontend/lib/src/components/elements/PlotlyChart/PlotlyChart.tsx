@@ -790,4 +790,5 @@ export function PlotlyChart({
   )
 }
 
-export default memo(withFullScreenWrapper(PlotlyChart))
+const PlotlyChartWithFullScreenWrapper = withFullScreenWrapper(PlotlyChart)
+export default memo(PlotlyChartWithFullScreenWrapper)

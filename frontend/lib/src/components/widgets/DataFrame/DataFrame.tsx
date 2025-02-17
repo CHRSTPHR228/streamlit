@@ -1091,4 +1091,5 @@ function DataFrame({
   )
 }
 
-export default memo(withFullScreenWrapper(DataFrame))
+const DataFrameWithFullscreen = withFullScreenWrapper(DataFrame)
+export default memo(DataFrameWithFullscreen)
